@@ -1,0 +1,29 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(102, 83, 83, 0.87);
+  background-color: #d8d8d8;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width: 300px;
+  height: 300px;
+  padding: 11px;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 2px gray;
+}
+.card img{
+  width: 100%;
+  height: 200px;
+}
+
+.main-dev{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+  color: black;
+}
